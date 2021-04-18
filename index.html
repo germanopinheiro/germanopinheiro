@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Germano Pinheiro,Veyda Mello, Milena Franciskievz">
+    <meta name="description" content="Site calcular imposto de renda">
+    <meta name="copyright" content="&copy 2021 Germano,Veyda,Milena">
+	<title>Imposto de renda</title>
+	<script type="text/javascript" src="jstabela.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div>
+			<img id="logo" src="icon.png">
+			<h1>Calcule seu imposto de renda</h1>
+		</div>
+	</header>
+	<div id="form">
+		<p>Nome</p>
+		<input id="name" type="txt" name="nome" value="" placeholder="Insira seu nome">
+
+		<p>Número de dependentes</p>
+		<input id="numerodep" type="txt" name="numdependentes" value="" placeholder="Insira o N° de dependentes">
+
+		<p>Salário bruto</p>
+		<input id="salariob" type="txt" name="salariobruto" value="" placeholder="Insira o seu salário bruto"><br>
+		<button onclick="calcularINSS()">Enviar</button>
+	</div>
+	<section>
+		<table>
+			<thead>
+				<tr>
+					<td>Nome</td>
+					<td>Número de dependentes</td>
+					<td>Salário bruto</td>
+					<td>% desconto INSS</td>
+					<td>Desconto INSS</td>
+					<td>% desconto IRPF</td>
+					<td>Desconto IRPF</td>
+					<td>Salário líquido</td>
+				</tr>
+			</thead>
+			<tbody id="tabela">
+
+			</tbody>
+		</table>
+	</section>
+</body>
+</html>

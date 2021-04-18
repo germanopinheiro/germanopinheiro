@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    font-family:sans-serif;
+    color:black;
+    text-align: center;
+}
+
+body{
+    background-color:whitesmoke;
+    width: 100vw;
+    overflow-x: hidden !important; 
+}
+
+header {
+    display: flex;
+}
+
+header div{
+    background-color:#7dbec5;
+    height: 4vw;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#logo{
+    width:7vw;
+    height: 4vw;
+    position: relative;
+}
+    
+
+h1{
+    left:38.5vw;
+    margin-top: 1.3vw;
+    font-size:22px;
+    color: white;
+    text-shadow:  0.1em 0.1em 0.05em#6ca5ac;
+    justify-content: center;
+
+}
+
+
+p{
+    color:rgb(22, 22, 22);
+    font-weight: bold;
+    position: relative;
+    top: 2vw;
+}
+
+
+input{
+  padding: .5vw 2vw;
+  margin: 0.4vw;
+  box-sizing: border-box;
+  border-color:#6ca5ac ;
+  position: relative;
+  top:2vw;
+  font-size:1em;
+  border-radius: 1vw;
+}
+
+input:hover{
+    background-color:lightblue;
+}
+
+button{
+    color:black;
+    background-color:#7dbec5;
+    width: 7vw;
+    height:2.6vw;
+    border-color:#F2F2F2;
+    border-width:1px;
+    border-style: outset;
+    font-size:1em;
+    font-weight: bold;
+    color:white;
+    border-radius: 1vw;
+    position: relative;
+    top:3vw;
+}
+
+button:hover{
+    background-color: #04d9ab;
+}
+
+td{
+    height: 2.4vw;
+    color:white;
+}
+
+tr{
+    background-color:#7dbec5;
+    margin-top: 1vw;
+}
+
+section {
+    margin-top: 5vw;
+    position: absolute;
+    text-shadow:  0.1em 0.1em 0.05em#6ca5ac;
+    font-weight: bold;
+}
+
+tr:hover{
+    background-color: #04d9ab;
+}
+
+
+table {
+    width:100vw;
+    
+    
+}
+
+thead {
+    width: 100vw;
+}
+@media screen and (max-width: 770px) {
+
+    
+    
+    header div{
+        background-color:#7dbec5;
+        height: 15vw;
+        width: 100vw;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #logo{
+        width:25vw;
+        height:15vw;
+        position: relative;
+        margin-top: 0%;
+    }
+        
+    
+    h1{
+        left:36px;
+        margin-top: 6vw;
+        font-size:17px;
+        color: white;
+        text-shadow:  0.1em 0.1em 0.05em#6ca5ac;
+        justify-content: center;
+    
+    }
+
+
+    button{
+        
+        background-color:#7dbec5;
+        width: 20vw;
+        height:10vw;
+        border-color:#F2F2F2;
+        border-width:1px;
+        border-style: outset;
+        font-size:1em;
+        font-weight: bold;
+        color:white;
+        border-radius: 1vw;
+        position: relative;
+        top:3vw;
+    }
+    
+    button:hover{
+        background-color: #04d9ab;
+    }
+
+    table{
+        width: 90%;
+        margin-left: 5%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    
+    }
+}  
